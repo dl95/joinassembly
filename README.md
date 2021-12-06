@@ -7,10 +7,10 @@ Installation process
 3. I configured with port 5000 if you wants to change you can change in app.js.
 * Two API's Here
   * For fetch data with date in milliseconds(It's only for timestamp(dateInMilliseconds))
-  * *   URL: http://localhost:{{port}}/api/timestamp
+    *   URL: http://localhost:{{port}}/api/timestamp
   * Main API 
-  * * http://localhost:{{port}}/api/visitors?date=dateInMilliseconds
-  * * http://localhost:{{port}}/api/visitors?date=dateInMilliseconds&ignore=museumToIgnore
+    * http://localhost:{{port}}/api/visitors?date=dateInMilliseconds
+    * http://localhost:{{port}}/api/visitors?date=dateInMilliseconds&ignore=museumToIgnore
   
 1. First Test Case: http://localhost:5000/api/visitors?date=1388514600000
 ```json
